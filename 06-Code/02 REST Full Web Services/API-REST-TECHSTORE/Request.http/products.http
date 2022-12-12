@@ -1,0 +1,48 @@
+// ------------- products creation -------------
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "ID_product": 1,
+  "name:product": "Mouse",
+  "desciption": "Mouse optical logitech",
+  "price": 15,
+  "quantity": 10
+}
+
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "ID_product": 2,
+  "name:product": "Headphones",
+  "desciption": "Logitech g733 ligthspeed wireless",
+  "price": 80,
+  "quantity": 12
+}
+
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "ID_product": 4,
+  "name:product": "Laptop",
+  "desciption": "Laptop hp G250 core i3",
+  "price": 250,
+  "quantity": 5
+}
+
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "ID_product": 6,
+  "name:product": "Solid State Drive",
+  "desciption": "SSD Western Digital grenn 240GB sata III ",
+  "price": 80,
+  "quantity": 20
+}
