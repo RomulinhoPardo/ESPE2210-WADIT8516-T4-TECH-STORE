@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:3004/api/users";
+const baseUrl = "http://ec2-52-23-176-81.compute-1.amazonaws.com:3004/api/users";
 
 export async function getUsers() {
   try {
