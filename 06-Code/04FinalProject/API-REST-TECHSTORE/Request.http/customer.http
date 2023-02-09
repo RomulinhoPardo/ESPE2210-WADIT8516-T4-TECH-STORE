@@ -1,0 +1,44 @@
+// ------------- Customer creation -------------
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Jhon ",
+  "lastname": "Rambo",
+  "address": "Quito-Carolina",
+  "email": "rambo@email.com"
+}
+
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Nataly",
+  "lastname": "Pilas",
+  "address": "Quito",
+  "email": "napila@email.com"
+}
+
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Juan ",
+  "lastname": "Piguave",
+  "address": "Manta",
+  "email": "jpiguave@email.com"
+}
+
+###
+POST http://localhost:3013/api/customer HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Pedro",
+  "lastname": "Suárez",
+  "address": "Quito-Cumbayá",
+  "email": "pasuárez@email.com"
+}
