@@ -21,6 +21,48 @@ header {
   color: #fff;
 }
 
+.title1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #2b2d42 5%, #0061a7 100%);
+	background-color:#2b2d42;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+form button {
+  width: 170px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
 h1 a,
 .nav-admin a {
   text-decoration: none;

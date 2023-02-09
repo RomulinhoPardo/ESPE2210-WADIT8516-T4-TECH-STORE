@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Navbar } from "../Navbar";
-import { HomePage, DashboardPage, LoginPage, RegisterPage } from "../pages";
+import { HomePage, DashboardPage, LoginPage, RegisterPage, ClientsPage, ProductMenu, ProductsPage, UserMenu, UserPage, Section1, Section2, Section3 } from "../pages";
 import { PrivateRoute } from "./PrivateRoute";
 import ProductCrud from "../pages/ProductCrud/ProductCrud";
 import UserCrud from "../pages/UserCrud/UserCrud";
@@ -15,6 +15,14 @@ export const AppRouter = () => {
           <Route index element={<HomePage />} />
           <Route path="login" element={<LoginPage />} />
           <Route path="register" element={<RegisterPage />} />
+          <Route path="clients" element={<ClientsPage />} />
+          <Route path="products" element={<ProductMenu />} />
+          <Route path="products1" element={<ProductsPage />} />
+          <Route path="users" element={<UserMenu />} />
+          <Route path="users1" element={<UserPage />} />
+          <Route path="section1" element={<Section1 />} />
+          <Route path="section2" element={<Section2 />} />
+          <Route path="section3" element={<Section3 />} />
 
           <Route
             path="dashboard"
@@ -61,5 +69,3 @@ export const AppRouter = () => {
     </>
   );
 };
-
-
